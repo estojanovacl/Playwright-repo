@@ -1,0 +1,19 @@
+{
+  "name": "playwrightautomationtask",
+  "version": "1.0.0",
+  "description": "Manual and automated (Playwright UI and API) testing of the ParaBank demo application",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test tests/ui",
+    "test:api": "playwright test tests/api",
+    "report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.65.0",
+    "@types/node": "^26.6.6"
+  }
+}
